@@ -1,5 +1,4 @@
 import pygame
-import random
 class Pipe(pygame.sprite.Sprite):
     def __init__(self, x, y, position, pipe_gap=150):
         super().__init__()
